@@ -16,7 +16,7 @@ submitBtn.addEventListener('click', (event) => {
 // Get Weather Report
 const apikey = "d9021eab7bd74f2ab2d53105220709";
 function getWeather(city) {
-    fetch(`http://api.weatherapi.com/v1/current.json?key=d9021eab7bd74f2ab2d53105220709&q=${city}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=d9021eab7bd74f2ab2d53105220709&q=${city}`)
     .then(weather => {
         return weather.json();
         console.log(weather);
