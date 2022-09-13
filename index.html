@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Weather App</h1>
+        <hr>
+        <input type="text" id= 'search_bar' name="input" id="input" placeholder="Enter City Name">
+        <button id="search_button">Get Details</button>
+        <hr>
+        <div id="displayCard">
+            <div id="details">
+                <h1 id="temp">-<span>&#8451</span> </h1>
+                <div class="toggle">
+                    <button id="celc">&#8451</button>
+                    <button id="fer">&#8457</button>
+                </div>
+                <div id="about"><h3 id="precipitation">Precipitation:Default%</h3>
+                    <h3 id="humidity">Humidity: Default</h3>
+                    <h3 id="wind">Wind: Default km/h</h3>
+     </div>
+            </div>
+            <div id="city_description">
+                <h1 id="city">Rourkela, Odisha</h1>
+                <h3 id="date">Wednesday</h3>
+                <h3 id="description">Thunderstorm</h3>
+            </div>
+            
+        </div>
+       
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
