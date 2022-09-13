@@ -88,8 +88,8 @@ input{
 #search_button{
     font-size:20px;
     width: 20%;
-    color:white;
-    background-color:#000000;
+    color:black;
+    background-color:white;
     /* border: 1px solid black; */
    margin-bottom:15px;
    border-radius: 25px;
